@@ -104,7 +104,7 @@ const Footer = () => {
                         <div className="">
                             <h6
                                 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
-                                Project's
+                                Projects
                             </h6>
                             <p className="mb-4">
                                 <a href="/" className="text-neutral-600 "
@@ -132,7 +132,7 @@ const Footer = () => {
                         <div className="">
                             <h6
                                 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
-                                my skill's
+                                my skills
                             </h6>
                             <p className="mb-4">
                                 <a href="/" className="text-neutral-600 "
