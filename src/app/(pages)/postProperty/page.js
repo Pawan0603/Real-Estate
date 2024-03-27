@@ -8,7 +8,7 @@ import { useAppContext } from '../../../../context/AppContext';
 import Loading01 from '@/components/loading/loading01.js'
 import { useRouter } from 'next/navigation';
 
-const postProperty = () => {
+const PostProperty = () => {
     const route = useRouter();
     const { Uemail } = useAppContext();
     const [userMail, setUserMail] = useState(Uemail);
@@ -408,4 +408,4 @@ const postProperty = () => {
     )
 }
 
-export default postProperty
+export default PostProperty
