@@ -1,7 +1,7 @@
 import React from 'react'
 import Style from './profile.module.css';
 
-const profile = () => {
+const Profile = () => {
   return (
     <>
       <div>
@@ -17,4 +17,4 @@ const profile = () => {
   )
 }
 
-export default profile
+export default Profile

@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation';
 import UserPropertyCard from '@/components/userPropertyCard';
 
 
-const yourPropertyList = () => {
+const YourPropertyList = () => {
   const route = useRouter();
   const { Uemail, reRenderKey } = useAppContext();
   const [data, setData] = useState();
@@ -43,4 +43,4 @@ const yourPropertyList = () => {
   )
 }
 
-export default yourPropertyList
+export default YourPropertyList

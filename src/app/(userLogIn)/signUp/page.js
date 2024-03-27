@@ -6,7 +6,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 
-const signUp = () => {
+const SignUp = () => {
 
   const route = useRouter();
   const [name, setName] = useState('');
@@ -144,4 +144,4 @@ const signUp = () => {
   )
 }
 
-export default signUp
+export default SignUp

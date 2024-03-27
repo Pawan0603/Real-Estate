@@ -9,7 +9,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import Loading02 from '@/components/loading/loading02.js';
 
 
-const page = ({ params }) => {
+const Page = ({ params }) => {
   const route = useRouter();
   const [data, setData] = useState();
   const [pImg, setPImg] = useState();
@@ -264,4 +264,4 @@ const page = ({ params }) => {
   )
 }
 
-export default page
+export default Page

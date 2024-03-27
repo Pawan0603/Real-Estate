@@ -10,7 +10,7 @@ import { useAppContext } from '../../../../context/AppContext';
 
 
 
-const logIn = () => {
+const LogIn = () => {
   const route = useRouter();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -143,4 +143,4 @@ const logIn = () => {
   )
 }
 
-export default logIn
+export default LogIn

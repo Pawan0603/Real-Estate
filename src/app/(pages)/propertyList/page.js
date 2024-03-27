@@ -6,7 +6,7 @@ import { useState, useEffect } from 'react';
 import PropertyCard from '@/components/propertyCard';
 import { useRouter } from 'next/navigation';
 
-const propertyList = () => {
+const PropertyList = () => {
     // const router = useRouter();
     const searchParams = useSearchParams();
     const location = searchParams.get('location');
@@ -44,4 +44,4 @@ const propertyList = () => {
   )
 }
 
-export default propertyList
+export default PropertyList

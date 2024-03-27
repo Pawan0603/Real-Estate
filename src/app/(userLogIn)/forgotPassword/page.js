@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link';
 
-const forgotPassword = () => {
+const ForgotPassword = () => {
     return (
         <section className="bg-gray-50">
             <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
@@ -35,4 +35,4 @@ const forgotPassword = () => {
     )
 }
 
-export default forgotPassword
+export default ForgotPassword
