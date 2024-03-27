@@ -1,0 +1,85 @@
+
+.topdestinationinindiacontainer {
+    display: flex;
+    margin: 20px 0;
+}
+.topdestcontent {
+    margin: 0 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topdestinationimg {
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    background-position: center;
+    background-size: cover;
+}
+.topdestinationtext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.topdestinationname {
+    margin: 10px 0 5px 0;
+}
+.topdestpcolor {
+    color: #706e6e;
+}
+.topdestinationimg:hover{
+    width: 125px;
+    height: 125px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .homebody {
+        background-position-y: -626px;
+    }
+
+    .homeHeading {
+        margin: 94px 1rem 26px 1rem;
+    }
+    
+    .propertySearchContainer {
+        width: 90vw;
+        height: auto;
+        padding-bottom: 1rem;
+        /* background: #f9f9f9d9; */
+    }
+
+
+
+     .topdestinationinindiacontainer {
+        flex-direction: column;
+    }
+
+    .topdestcontent {
+        flex-direction: row;
+        background-color: white;
+        border-radius: 7px;
+        width: 316px;
+        margin: 5px 0;
+        border: 2px solid gainsboro;
+    }
+
+    .topdestinationimg {
+        width: 90px;
+        height: 90px;
+        border-radius: 7px 0 0 7px;
+    }
+
+    .topdestinationtext {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0 12px;
+    }
+    
+} 
