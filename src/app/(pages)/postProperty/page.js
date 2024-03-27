@@ -302,7 +302,7 @@ const PostProperty = () => {
                                                 <option value="" >Choose...</option>
                                                 <option value="Furnished">Furnished</option>
                                                 <option value="Senifurnished">Senifurnished</option>
-                                                <option value="'Unfurnished'">'Unfurnished'</option>
+                                                <option value="Unfurnished">Unfurnished</option>
                                             </select>
                                         </div>
                                     </div>
