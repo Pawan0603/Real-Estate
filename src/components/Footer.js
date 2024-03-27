@@ -108,23 +108,23 @@ const Footer = () => {
                             </h6>
                             <p className="mb-4">
                                 <a href="/" className="text-neutral-600 "
-                                >HouseHub.com (Real Ested website)</a
+                                >HouseHub.com </a
                                 >
                             </p>
                             <p className="mb-4">
                                 <a href="/" className="text-neutral-600 "
-                                >Spotify_clone (music app)</a
+                                >Spotify_clone</a
                                 >
                             </p>
                             <p className="mb-4">
                                 <a href="/" className="text-neutral-600 "
-                                >NExtChat (Real-time chat webapplication)</a
+                                >NExtChat </a
                                 >
                             </p>
                             
                             <p>
                                 <a href="/" className="text-neutral-600 "
-                                >TimePassGames.com (small small game website)</a
+                                >TimePassGames.com</a
                                 >
                             </p>
                         </div>
@@ -185,7 +185,7 @@ const Footer = () => {
                                     <path
                                         d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
                                 </svg>
-                                pawanthakre252002@gmail.com.com
+                                pawanthakre252002@gmail.com
                             </p>
                             <p className="mb-4 flex items-center justify-center md:justify-start">
                                 <svg
