@@ -10,7 +10,7 @@ import { Button, Modal } from "keep-react";
 import { Trash } from "phosphor-react";
 
 
-const page = ({ params }) => {
+const Page = ({ params }) => {
   const route = useRouter();
   const { Uemail } = useAppContext();
   const [data, setData] = useState();
@@ -201,4 +201,4 @@ const page = ({ params }) => {
   )
 }
 
-export default page
+export default Page
