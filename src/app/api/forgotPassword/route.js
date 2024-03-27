@@ -1,4 +1,4 @@
-import Forgot from "../../models/forgot"
+import Forgot from "../../../../models/forgot";
 
 export default async function handler(req, res) {
   // check if the user in the Database
