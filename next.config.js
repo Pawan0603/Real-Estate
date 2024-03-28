@@ -6,7 +6,7 @@ const nextConfig = {
         domains: ['res.cloudinary.com'],
     },
     // output: 'export',
-    distDir: 'dist',
+    // distDir: 'dist',
 }
 
 module.exports = nextConfig
