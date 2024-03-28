@@ -102,7 +102,7 @@ export default function Home() {
         <div className={styles.topdestinationinindiacontainer}>
           <div className={styles.topdestcontent}>
             <div >
-              <img className={styles.topdestinationimg} src="./dehli.img.jpg" />
+              <Image className={styles.topdestinationimg} src="./dehli.img.jpg" width={500} height={500} alt='topdestinationimage'/>
             </div>
             <div className={styles.topdestinationtext}>
               <p className={styles.topdestinationname}>New Dehli and NCR</p>
@@ -112,7 +112,7 @@ export default function Home() {
 
           <div className={styles.topdestcontent}>
             <div >
-              <img className={styles.topdestinationimg} src="./chennai.img.jpg" />
+              <Image className={styles.topdestinationimg} src="./chennai.img.jpg" width={500} height={500} alt='topdestinationimage'/>
             </div>
             <div className={styles.topdestinationtext}>
               <p className={styles.topdestinationname}>New chennai and NCR</p>
@@ -122,7 +122,7 @@ export default function Home() {
 
           <div className={styles.topdestcontent}>
             <div >
-              <img className={styles.topdestinationimg} src="./bangalore-img.jpg" />
+              <Image className={styles.topdestinationimg} src="./bangalore-img.jpg" width={500} height={500} alt='topdestinationimage'/>
             </div>
             <div className={styles.topdestinationtext}>
               <p className={styles.topdestinationname}>New bangalore and NCR</p>
@@ -132,7 +132,7 @@ export default function Home() {
 
           <div className={styles.topdestcontent}>
             <div >
-              <img className={styles.topdestinationimg} src="./goa-img.jpg" />
+              <Image className={styles.topdestinationimg} src="./goa-img.jpg" width={500} height={500} alt='topdestinationimage'/>
             </div>
             <div className={styles.topdestinationtext}>
               <p className={styles.topdestinationname}>New Dehli and NCR</p>
@@ -142,7 +142,7 @@ export default function Home() {
 
           <div className={styles.topdestcontent}>
             <div >
-              <img className={styles.topdestinationimg} src="./hydarbad-img.jpg" />
+              <Image className={styles.topdestinationimg} src="./hydarbad-img.jpg" width={500} height={500} alt='topdestinationimage'/>
             </div>
             <div className={styles.topdestinationtext}>
               <p className={styles.topdestinationname}>New hydarbad and NCR</p>
